@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <section class="container">
+
+        <header>
+            <h1>Online Quiz Application</h1>
+        </header>
+
+        <h2>Instructions</h2>
+
+        <ul>
+            <li>You have 10 questions.</li>
+            <li>Each question has only one correct answer.</li>
+            <li>You have 15 seconds for each question.</li>
+        </ul>
+
+        <h2>Total Questions: 10</h2>
+
+        <button id="start" onclick="startQuiz()">
+            Start Quiz
+        </button>
+
+    </section>
+ <section id="quiz" class="screen">
+
+        <header>
+            <h2>Quiz Started</h2>
+        </header>
+
+        <span id="progress">Question 1 / 10</span>
+
+        <br><br>
+
+        <span id="timer">Time Left : 15s</span>
+
+        <br><br>
+
+        <h3 id="questions-text">
+            Question will appear here
+        </h3>
+
+        <div id="options-list">
+
+        </div>
+
+    </section>
+<section id="result" class="result">
+
+        <h2>Quiz Completed</h2>
+
+        <h3>Your Result</h3>
+
+        <p>Correct Answers :
+            <strong id="correct">0</strong>
+        </p>
+
+        <p>Incorrect Answers :
+            <strong id="incorrect">0</strong>
+        </p>
+
+        <p>Unanswered :
+            <strong id="unanswered">0</strong>
+        </p>
+
+        <p>Score :
+            <strong id="score">0</strong>
+        </p>
+
+        <p>Percentage :
+            <strong id="percentage">0%</strong>
+        </p>
+
+        <div id="review">
+
+            <h3>Review Quiz</h3>
+
+            <button>
+                Review Answers
+            </button>
+
+        </div>
+
+    </section>
+
+    <script src="script1.js"></script>
+
+</body>
+</html>

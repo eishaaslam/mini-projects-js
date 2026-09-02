@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background: #f0f0f0;
+    padding: 50px;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.list {
+    margin-top: 20px;
+    text-align: left;
+    padding: 0;
+    list-style: none;  
+}
+
+ 
+.task-item {
+    background: #eee;
+    padding: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+ 
+.task-item:hover {
+    background: #ffcdd2;
+}

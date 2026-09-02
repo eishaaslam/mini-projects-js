@@ -1,0 +1,58 @@
+/* Centering everything nicely on the screen */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f8ff; /* Soft light blue background */
+  margin: 0;
+  padding: 20px;
+}
+
+header h1 {
+  color: #333;
+}
+
+ 
+.info {
+  margin: 20px 0;
+}
+ 
+button {
+  background-color: #007bff;  
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 7px;  
+  cursor: pointer;  
+}
+
+ 
+button:hover {
+  background-color: #0056b3;  
+}
+ 
+.display {
+  background-color: white;
+  max-width: 300px;
+  margin: 20px auto;  
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);  
+}
+
+#icon {
+  font-size: 50px; /* Makes the cloud emoji big */
+  margin: 10px 0;
+}
+
+.temperature {
+  font-size: 32px;
+  font-weight: bold;
+  color: #ff8c00;  
+}
+
+.condition {
+  font-size: 18px;
+  color: #555;
+}

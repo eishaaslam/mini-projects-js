@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 50px 20px;
+}
+
+h1 {
+    color: rgb(72, 65, 65);
+}
+
+.choices {
+    margin: 30px 0;
+}
+
+.btn {
+    font-size: 30px;
+    padding: 15px 25px;
+    margin: 10px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    background-color: #e3f2fd;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.score {
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.result-div {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #2c3e50;
+}
+
+.choices-made {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
